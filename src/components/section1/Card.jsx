@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = (props) => {
   return (
-    <div className='shrink-0 relative w-[30%] rounded-4xl inset-0 overflow-hidden h-[80vh]  transition-all duration-300 ease-in-out hover:scale-95'>
+    <div className='shrink-0 relative w-300px rounded-4xl inset-0 overflow-hidden h-[80vh]  transition-all duration-300 ease-in-out hover:scale-95'>
       <img className='object-cover h-full w-full' src={props.img} alt="" />
       <div className='absolute flex py-5 px-5 flex-col justify-between top-0 left-0 h-full w-full '>
         <span className='rounded-[50%] h-fit w-fit flex justify-center items-center px-2 bg-white  text-2xl'>
@@ -10,8 +10,8 @@ const Card = (props) => {
             {props.num}
           </div>
         </span>
-        <div className='text-white flex-col flex'>
-          <div>
+        <div className='text-white/95 flex-col flex'>
+          <div className='text-shadow-xs text-shadow-black'>
             {props.txt} 
           </div>
           <div className='reltive  mt-10 mb-5 flex justify-between items-center gap-0 group transition-all duration-300 ease-in-out'>
@@ -19,7 +19,7 @@ const Card = (props) => {
             transition-all duration-300 ease-in-out'>
               {props.btn}
             </button>
-            <div className='bg-blue-500 rounded-2xl absolute left-[60%] min-w-[20%] h-3 group-hover:bg-blue-900
+            <div className='bg-blue-500 rounded-2xl absolute left-[63%] min-w-[20%] h-3 group-hover:bg-blue-900
             group-hover:cursor-pointer 
             transition-all duration-300 ease-in-out'>
 
