@@ -49,7 +49,7 @@ const RightContent = () => {
     }
   ]
   return (
-    <div className='w-[70%] rounded-4xl h-auto flex gap-5 flex-nowrap overflow-x-scroll  overflow-y-visible [&::-webkit-scrollbar]:w-0'>
+    <div className='lg:w-[70%] w-full rounded-4xl h-auto flex gap-5 flex-nowrap overflow-x-scroll  overflow-y-visible [&::-webkit-scrollbar]:w-0'>
      {
       arr.map((item,index)=>{
         return(

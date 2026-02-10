@@ -2,7 +2,7 @@ import React from 'react'
 
 const LeftContent = () => {
   return (
-    <div className='max-w-[25%] min-w-300px pt-[5%] h-[82vh] flex-col flex justify-between'>
+    <div className='w-full h-auto lg:max-w-[25%] lg:min-w-300px pt-[5%] lg:h-[82vh] flex-col flex justify-between'>
       <div>
         <div className='text-5xl font-bold pb-8'>
             Prospetive customer segmentation

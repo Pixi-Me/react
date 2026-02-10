@@ -5,9 +5,9 @@ import RightContent from './RightContent.jsx'
 
 const Section1 = () => {
   return (
-    <div className='h-screen w-full bg-white border-2 pt-2  px-[3%]'>
+    <div className='h-screen w-full bg-white pt-2  px-[3%]'>
       <Nav/>
-      <div className='flex-col flex md:flex-row  gap-10'>
+      <div className='flex-col flex lg:flex-row  gap-10'>
         <LeftContent />
         <RightContent/>
       </div>
